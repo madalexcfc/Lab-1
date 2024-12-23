@@ -15,7 +15,8 @@ def sequence(filename="sequence.txt"):
         elif i < max(height - ratio // 10, height - diff // 10):
             print(" " * 12 + blue + " " * 2 + reset)
         else:
-            print(" " * 5 + blue + " " * 2 + reset + " " * 5 + blue + " " * 2 + reset)
+            print(" " * 5 + blue + " " * 2 + reset + " " * 5\
+                   + blue + " " * 2 + reset)
     print("corr(30%)" + " " * 1 + "diff(70%)")
     
     
